@@ -5,7 +5,7 @@ public class StudentGrades {
 
         double[] grades = new double[10];
         Scanner input = new Scanner(System.in);
-        boolean validation = false;
+        boolean validation;
         boolean inputGrades = false;
         do{
             System.out.println("Welcome to the Student Grades Management System!\n" +
